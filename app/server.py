@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/drive/folders/1chZ35Pr0dVVdvsXrHrizjG_fREJXoXts'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ["MLK", "Maya Angelou", "Arethra Franklin", "Barack Obama", "Beyonce", "Jackie Robinson", "Malcolm X", "Serena Williams", "Toni Morrison", "Whitney Houston"]
 path = Path(__file__).parent
 
 app = Starlette()
